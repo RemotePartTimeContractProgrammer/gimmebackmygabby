@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gimme Back My Gabby",
+  "version": "0.1.0",
+  "description": "put the gabby back in the gab",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://gab.com/*"]
+  }]
+
+}
