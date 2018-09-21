@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "description": "put the gabby back in the gab",
 
+  "web_accessible_resources": [
+    "gab.gif"
+  ],
+  
   "content_scripts": [{
     "js": ["content.js"],
     "matches": ["https://gab.com/*"]
